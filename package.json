@@ -1,0 +1,28 @@
+{
+  "name": "google-drive",
+  "version": "1.0.0",
+  "description": "Develop a small application that integrates with Google Drive.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HardMaind/node-google-drive.git"
+  },
+  "author": "Hardik Mandaviya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HardMaind/node-google-drive/issues"
+  },
+  "homepage": "https://github.com/HardMaind/node-google-drive#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "googleapis": "^144.0.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
